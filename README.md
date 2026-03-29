@@ -1,14 +1,17 @@
-# sql-practice
+# SQL Practice
 
-SQL Practice 
-Üniversite yönetim sistemleri üzerine yazılmış SQL sorgu pratikleri.
-Klasör Yapısı
-sql-practice/
-├── schema1-universite/
-│   ├── 01_create_tables.sql   → Tablo oluşturma (5 tablo)
-│   ├── 02_insert_data.sql     → Test verileri
-│   └── 03_queries.sql         → 16 sorgu
-└── schema2-bolumler/
-    ├── 01_create_tables.sql   → Tablo oluşturma (5 tablo)
-    ├── 02_insert_data.sql     → Test verileri
-    └── 03_queries.sql         → 7 sorgu
+Üniversite yönetim sistemi üzerine yazılmış SQL sorguları.
+
+## Konular
+`JOIN` · `GROUP BY` · `HAVING` · `CASE WHEN` · `LEFT JOIN` · `Subquery` · `Self Join` · `IS NULL`
+
+## Yapı
+```
+schema1-universite/   → 5 tablo, 16 sorgu
+schema2-bolumler/     → 5 tablo, 7 sorgu
+```
+
+Her klasörde:
+- `01_create_tables.sql` — tabloları oluştur
+- `02_insert_data.sql` — test verilerini ekle
+- `03_queries.sql` — sorgular
